@@ -2,13 +2,26 @@ body{
   font-family: sans-serif;
   font-size:110%;
   background-color: #FCF7F8;
+  border: #e8410e 
 }
 
 header {
   text-align: center;
+  background-color: #343330;
+  color:antiquewhite;
 }
 
 footer {
   background-color: #343330;
   text-align: center;
+  color:antiquewhite;
+
 }
+
+aside {
+  background-color: #334a08
+  
+}
+
+
+

@@ -1,5 +1,5 @@
 body{
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times,serif, sans-serif;
   font-size:110%;
   background-color: #FCF7F8;
   border: #e8410e 
@@ -18,9 +18,10 @@ footer {
 
 }
 
-aside {
-  background-color: #334a08
-  
+.menu, aside {
+  color: antiquewhite;
+  width: 20%;
+  background-color:rgb(14, 60, 14);
 }
 
 

@@ -2,7 +2,9 @@ body{
   font-family: 'Times New Roman', Times,serif, sans-serif;
   font-size:110%;
   background-color: #FCF7F8;
-  border: #e8410e 
+  border: #e8410e;
+  margin: 20px;
+  padding: 30px;
 }
 
 header {
@@ -11,18 +13,45 @@ header {
   color:antiquewhite;
 }
 
+h1 {
+  font-size: 300%;
+  font-weight: 200;
+}
+h2 {
+text-decoration: underline;
+}
+
+.headshot {
+  border-width: 3px;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 3px solid #D1603D;
+
+}
+
 footer {
   background-color: #343330;
   text-align: center;
   color:antiquewhite;
+}
 
+.icon {
+  margin: 0.3rem;
 }
 
 .menu, aside {
   color: antiquewhite;
   width: 20%;
-  background-color:rgb(14, 60, 14);
+  height: 100%;
+  width: 20%;
+  padding: 1rem;
+  background-color: #45462A;
 }
 
-
+#nav-menu {
+  list-style-type: none;
+    padding: 0;
+    color: #fff;
+}
 

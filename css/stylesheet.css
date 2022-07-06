@@ -11,8 +11,8 @@ body{
 
 header {
   text-align: center;
-  background-color: #99582a;
-  color:antiquewhite;
+  background-color: #ffdccc;
+  color:black;
 }
 
 h1 {
@@ -28,14 +28,14 @@ text-decoration: underline;
   width: 15%;
   height: 15%;
   border-radius: 50%;
-  border: 3px solid #d62828;
+  border: 3px solid #ce4257;
 
 }
 
 footer {
-  background-color: #540804;
+  background-color: #fcb1a6;
   text-align: center;
-  color:antiquewhite;
+  color: #1e1b18;
   text-decoration:none;
 }
 
@@ -44,10 +44,10 @@ footer {
 }
 
 .menu {
-  color: antiquewhite;
+  color: #1e1b18;
   width: 18%;
   padding: 1rem;
-  background-color: #45462A;
+  background-color: #df7890;
 }
 
 #nav-menu {
@@ -56,7 +56,6 @@ footer {
     color: #fff;
     
 }
-
 
 .main {
   display:flex;
@@ -68,6 +67,10 @@ footer {
 .academyLink {
   text-decoration: none;
   color: inherit;
+}
+
+.circle {
+  list-style-type: circle;
 }
 
 

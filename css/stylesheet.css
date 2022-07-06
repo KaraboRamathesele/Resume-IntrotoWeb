@@ -1,20 +1,22 @@
 body{
   font-family: 'Times New Roman', Times,serif, sans-serif;
   font-size:110%;
-  background-color: #FCF7F8;
-  border: #e8410e;
+  background-color: #fef9ef;
   margin: 20px;
   padding: 30px;
+  display:  flex;
+  flex-direction: column;
+
 }
 
 header {
   text-align: center;
-  background-color: #343330;
+  background-color: #99582a;
   color:antiquewhite;
 }
 
 h1 {
-  font-size: 300%;
+  font-size: 250%;
   font-weight: 200;
 }
 h2 {
@@ -26,32 +28,46 @@ text-decoration: underline;
   width: 15%;
   height: 15%;
   border-radius: 50%;
-  border: 3px solid #D1603D;
+  border: 3px solid #d62828;
 
 }
 
 footer {
-  background-color: #343330;
+  background-color: #540804;
   text-align: center;
   color:antiquewhite;
+  text-decoration:none;
 }
 
 .icon {
   margin: 0.3rem;
 }
 
-.menu, aside {
+.menu {
   color: antiquewhite;
-  width: 20%;
-  height: 100%;
-  width: 20%;
+  width: 18%;
   padding: 1rem;
   background-color: #45462A;
 }
 
 #nav-menu {
   list-style-type: none;
-    padding: 0;
+    padding: 2px;
     color: #fff;
+    
 }
+
+
+.main {
+  display:flex;
+  flex-direction: row;
+  overflow: unset;
+
+}
+
+.academyLink {
+  text-decoration: none;
+  color: inherit;
+}
+
 

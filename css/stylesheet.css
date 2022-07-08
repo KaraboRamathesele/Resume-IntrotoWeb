@@ -15,8 +15,15 @@ header {
   color:black;
 }
 
+header > p {
+  font-size: 18px;
+  font-weight: 400px;
+  margin-left: 3%; margin-right: 3%;
+
+}
+
 h1 {
-  font-size: 250%;
+  font-size: 220%;
   font-weight: 200;
 }
 h2 {
@@ -29,7 +36,6 @@ text-decoration: underline;
   height: 15%;
   border-radius: 50%;
   border: 3px solid #ce4257;
-
 }
 
 footer {
@@ -41,6 +47,10 @@ footer {
 
 .icon {
   margin: 0.3rem;
+}
+
+.sectionColor {
+  color: rgb(247, 93, 93);
 }
 
 .menu {
@@ -61,7 +71,6 @@ footer {
   display:flex;
   flex-direction: row;
   overflow: unset;
-
 }
 
 .academyLink {
@@ -73,4 +82,8 @@ footer {
   list-style-type: circle;
 }
 
+.content{
+  padding: 25px;
+  
+}
 

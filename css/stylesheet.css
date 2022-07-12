@@ -58,14 +58,24 @@ footer {
   width: 18%;
   padding: 1rem;
   background-color: #df7890;
+  text-align: center;
+}
+
+.menu a {
+  color: #1e1b18;
   text-decoration: none;
+  font-weight:600;
+  margin-bottom: 30%;
+
 }
 
 #nav-menu {
   list-style-type: none;
-    padding: 2px;
-    color: #fff;
-    
+  padding: 2px;
+  color: #fff;
+  display:flex;
+  flex-direction: column;
+  margin: 20%;
 }
 
 .main {
@@ -76,7 +86,7 @@ footer {
 
 .academyLink {
   text-decoration: none;
-  color: inherit;
+  color:  rgb(247, 93, 93);
 }
 
 .circle {
@@ -86,6 +96,13 @@ footer {
 .content{
   padding: 25px;
 }
+
+.intro{
+  width:60%;
+  padding-left:17%;
+  
+}
+
 
 
 

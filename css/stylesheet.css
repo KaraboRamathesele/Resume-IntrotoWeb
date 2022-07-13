@@ -25,7 +25,9 @@ header > p {
 h1 {
   font-size: 220%;
   font-weight: 200;
+  text-decoration: underline;
 }
+
 h2 {
 text-decoration: underline;
 }
@@ -35,7 +37,7 @@ text-decoration: underline;
   width: 15%;
   height: 15%;
   border-radius: 50%;
-  border: 3px solid #ce4257;
+  border: 3px solid #ce4257 ;
 }
 
 footer {
@@ -47,6 +49,8 @@ footer {
 
 .icon {
   margin: 0.3rem;
+  width:42px;
+  height:42px;
 }
 
 .sectionColor {
@@ -98,8 +102,9 @@ footer {
 }
 
 .intro{
-  width:60%;
-  padding-left:17%;
+  width:80%;
+  padding-left:7.1%;
+  color:#1e1b18;
   
 }
 
